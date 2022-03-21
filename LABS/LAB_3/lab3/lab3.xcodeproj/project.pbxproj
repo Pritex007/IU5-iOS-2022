@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		870391DC27DCB4AB0004B2BA /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870391DB27DCB4AB0004B2BA /* FuncViewController.swift */; };
+		871AEFAD27E4BCC100A8EF72 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AEFAC27E4BCC100A8EF72 /* InitialViewController.swift */; };
+		871AEFB127E4D4C000A8EF72 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AEFB027E4D4C000A8EF72 /* CodeTableViewController.swift */; };
+		871AEFB627E4ED9500A8EF72 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871AEFB527E4ED9500A8EF72 /* CodeTableViewCell.swift */; };
+		8733CEEE27E86382005203F5 /* CodeFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733CEED27E86382005203F5 /* CodeFuncViewController.swift */; };
 		8754EC3F27DA8A650034A798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8754EC3E27DA8A650034A798 /* ViewController.swift */; };
 		8754EC4227DA8B9A0034A798 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8754EC4127DA8B9A0034A798 /* TableViewController.swift */; };
 		8770890127D8CDA0003816E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770890027D8CDA0003816E2 /* AppDelegate.swift */; };
@@ -20,6 +24,10 @@
 
 /* Begin PBXFileReference section */
 		870391DB27DCB4AB0004B2BA /* FuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncViewController.swift; sourceTree = "<group>"; };
+		871AEFAC27E4BCC100A8EF72 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		871AEFB027E4D4C000A8EF72 /* CodeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableViewController.swift; sourceTree = "<group>"; };
+		871AEFB527E4ED9500A8EF72 /* CodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
+		8733CEED27E86382005203F5 /* CodeFuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeFuncViewController.swift; sourceTree = "<group>"; };
 		8754EC3E27DA8A650034A798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8754EC4127DA8B9A0034A798 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		877088FD27D8CDA0003816E2 /* lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +51,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871AEFA827E4BBF000A8EF72 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8770891A27D8D484003816E2 /* Main.storyboard */,
+				870391DB27DCB4AB0004B2BA /* FuncViewController.swift */,
+				8754EC4127DA8B9A0034A798 /* TableViewController.swift */,
+				8754EC3E27DA8A650034A798 /* ViewController.swift */,
+				8770892027D8DA14003816E2 /* TableViewCell.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		871AEFAB27E4BC9C00A8EF72 /* InitialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				871AEFAC27E4BCC100A8EF72 /* InitialViewController.swift */,
+			);
+			path = InitialViewController;
+			sourceTree = "<group>";
+		};
+		871AEFB427E4ED6000A8EF72 /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				871AEFB027E4D4C000A8EF72 /* CodeTableViewController.swift */,
+				871AEFB527E4ED9500A8EF72 /* CodeTableViewCell.swift */,
+				8733CEED27E86382005203F5 /* CodeFuncViewController.swift */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
 		877088F427D8CDA0003816E2 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +100,11 @@
 		877088FF27D8CDA0003816E2 /* lab3 */ = {
 			isa = PBXGroup;
 			children = (
+				871AEFB427E4ED6000A8EF72 /* Coding */,
+				871AEFAB27E4BC9C00A8EF72 /* InitialViewController */,
+				871AEFA827E4BBF000A8EF72 /* Storyboard */,
 				8770890027D8CDA0003816E2 /* AppDelegate.swift */,
 				8770890227D8CDA0003816E2 /* SceneDelegate.swift */,
-				8770891A27D8D484003816E2 /* Main.storyboard */,
-				870391DB27DCB4AB0004B2BA /* FuncViewController.swift */,
-				8754EC4127DA8B9A0034A798 /* TableViewController.swift */,
-				8754EC3E27DA8A650034A798 /* ViewController.swift */,
-				8770892027D8DA14003816E2 /* TableViewCell.swift */,
 				8770890927D8CDA1003816E2 /* Assets.xcassets */,
 				8770890B27D8CDA2003816E2 /* LaunchScreen.storyboard */,
 				8770890E27D8CDA2003816E2 /* Info.plist */,
@@ -111,7 +147,7 @@
 				};
 			};
 			buildConfigurationList = 877088F827D8CDA0003816E2 /* Build configuration list for PBXProject "lab3" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -148,9 +184,13 @@
 			files = (
 				8770892127D8DA14003816E2 /* TableViewCell.swift in Sources */,
 				8770890127D8CDA0003816E2 /* AppDelegate.swift in Sources */,
+				871AEFAD27E4BCC100A8EF72 /* InitialViewController.swift in Sources */,
 				8754EC3F27DA8A650034A798 /* ViewController.swift in Sources */,
 				8754EC4227DA8B9A0034A798 /* TableViewController.swift in Sources */,
+				8733CEEE27E86382005203F5 /* CodeFuncViewController.swift in Sources */,
+				871AEFB127E4D4C000A8EF72 /* CodeTableViewController.swift in Sources */,
 				870391DC27DCB4AB0004B2BA /* FuncViewController.swift in Sources */,
+				871AEFB627E4ED9500A8EF72 /* CodeTableViewCell.swift in Sources */,
 				8770890327D8CDA0003816E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,8 +212,7 @@
 				8770891B27D8D484003816E2 /* Base */,
 			);
 			name = Main.storyboard;
-			path = lab3;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
