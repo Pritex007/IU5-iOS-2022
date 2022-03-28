@@ -35,6 +35,11 @@
 		87D9B89C27F214B0002451E6 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */; };
 		87D9B89F27F214B5002451E6 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */; };
 		87D9B8A227F214B7002451E6 /* CodeFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */; };
+		87D9B8A927F216CC002451E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763337527F0D08100FC4A24 /* Main.storyboard */; };
+		87D9B8AC27F216D9002451E6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337727F0D08100FC4A24 /* TableViewController.swift */; };
+		87D9B8AF27F216DC002451E6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337427F0D08100FC4A24 /* TableViewCell.swift */; };
+		87D9B8B227F216DE002451E6 /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337327F0D08100FC4A24 /* FuncViewController.swift */; };
+		87D9B8B527F216E1002451E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337227F0D08100FC4A24 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -339,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D9B8A927F216CC002451E6 /* Main.storyboard in Resources */,
 				78052E9927BA89A700BB3916 /* LaunchScreen.storyboard in Resources */,
 				78052E9627BA89A700BB3916 /* Assets.xcassets in Resources */,
 			);
@@ -360,11 +366,15 @@
 			files = (
 				7844CB9D27C2605D00B4A094 /* SwapValues.swift in Sources */,
 				87D9B89727F2145F002451E6 /* InitialViewController.swift in Sources */,
+				87D9B8AC27F216D9002451E6 /* TableViewController.swift in Sources */,
+				87D9B8AF27F216DC002451E6 /* TableViewCell.swift in Sources */,
 				7844CBA327C91E3C00B4A094 /* ReferenceCycleResolver.swift in Sources */,
 				7844CBB027CADA8000B4A094 /* Shipment.swift in Sources */,
+				87D9B8B227F216DE002451E6 /* FuncViewController.swift in Sources */,
 				78052E8D27BA89A500BB3916 /* AppDelegate.swift in Sources */,
 				7844CB9027C1A34200B4A094 /* NumberToArray.swift in Sources */,
 				87D9B89C27F214B0002451E6 /* CodeTableViewCell.swift in Sources */,
+				87D9B8B527F216E1002451E6 /* ViewController.swift in Sources */,
 				78052EBF27BA8AC300BB3916 /* SequenceСreator.swift in Sources */,
 				87D9B89F27F214B5002451E6 /* CodeTableViewController.swift in Sources */,
 				7844CB9427C1A72600B4A094 /* BooleanConverter.swift in Sources */,
