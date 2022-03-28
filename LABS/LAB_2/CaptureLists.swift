@@ -16,10 +16,7 @@ import Foundation
 // Решение кратко обоснуйте в блоке | Обоснование решения |.
 // Например: /* Я сделал …, т.к. это красиво */
 
-/* | setValueInFavouriteNumber и self в обе стороны связаны сильными ссылками, что приводит к утечке памяти,
-     поэтому нужно объявить слабую ссылкую. Т.к. setValueInFavouriteNumber не существует без self, то сделам unowned self.
-     Т.к. number может измениться, нужно захватить ее первоначальное значение.
- | */
+/* | Обоснование решения | */
 
 
 final class CaptureLists {
@@ -29,7 +26,7 @@ final class CaptureLists {
     func disputeWithSheldonCooper(myFavouriteNumber: Int) {
         var number = myFavouriteNumber
         
-        let setValueInFavouriteNumber: () -> () = { [unowned self, number] in
+        let setValueInFavouriteNumber: () -> () = {
             self.favouriteNumber = number
         }
         
