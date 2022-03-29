@@ -6,7 +6,7 @@
 //
 import UIKit
 
-class CodeTableViewCell: UITableViewCell {
+final class CodeTableViewCell: UITableViewCell {
     
     private let LogoView = UIImageView()
     private let titleLabel = UILabel()
