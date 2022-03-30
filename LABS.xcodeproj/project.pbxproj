@@ -53,6 +53,7 @@
 		8763337E27F0D08100FC4A24 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337427F0D08100FC4A24 /* TableViewCell.swift */; };
 		8763337F27F0D08100FC4A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763337527F0D08100FC4A24 /* Main.storyboard */; };
 		8763338027F0D08100FC4A24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337727F0D08100FC4A24 /* TableViewController.swift */; };
+    
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +70,7 @@
 		15350EA527C23C01000CDAC3 /* ArrayToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayToString.swift; sourceTree = "<group>"; };
 		15350EA927C23D50000CDAC3 /* ArrayToStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayToStringTests.swift; sourceTree = "<group>"; };
 		78052E8927BA89A500BB3916 /* LABS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LABS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		78052E8C27BA89A500BB3916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78052E8C27BA89A500BB3916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; usesTabs = 0; };
 		78052E8E27BA89A500BB3916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78052E9527BA89A700BB3916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78052E9827BA89A700BB3916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 		7801412927D642C900E22965 /* LAB_3 */ = {
 			isa = PBXGroup;
 			children = (
+
 				8735BF8427F3124A00A31B07 /* VIPER x MVP */,
 				8763336B27F0D07F00FC4A24 /* Coding */,
 				8763336F27F0D08000FC4A24 /* InitialViewController */,
@@ -260,6 +262,7 @@
 			path = LAB_2;
 			sourceTree = "<group>";
 		};
+
 		8735BF8427F3124A00A31B07 /* VIPER x MVP */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,7 +352,9 @@
 			isa = PBXGroup;
 			children = (
 				8763337027F0D08000FC4A24 /* InitialViewController.swift */,
+
 				8735BF7E27F3049D00A31B07 /* InitialViewControllerCell.swift */,
+
 			);
 			path = InitialViewController;
 			sourceTree = "<group>";
@@ -447,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				8763337F27F0D08100FC4A24 /* Main.storyboard in Resources */,
 				78052E9927BA89A700BB3916 /* LaunchScreen.storyboard in Resources */,
 				78052E9627BA89A700BB3916 /* Assets.xcassets in Resources */,
@@ -476,14 +482,18 @@
 				7844CBA327C91E3C00B4A094 /* ReferenceCycleResolver.swift in Sources */,
 				8735BF9327F3191300A31B07 /* TableModuleIO.swift in Sources */,
 				7844CBB027CADA8000B4A094 /* Shipment.swift in Sources */,
+
 				8735BFA627F3320800A31B07 /* ButtonViewController.swift in Sources */,
 				8763337E27F0D08100FC4A24 /* TableViewCell.swift in Sources */,
 				78052E8D27BA89A500BB3916 /* AppDelegate.swift in Sources */,
 				8763337D27F0D08100FC4A24 /* FuncViewController.swift in Sources */,
 				8735BFAE27F3325F00A31B07 /* ButtonInteractor.swift in Sources */,
 				7844CB9027C1A34200B4A094 /* NumberToArray.swift in Sources */,
+
 				8763337B27F0D08100FC4A24 /* InitialViewController.swift in Sources */,
+
 				78052EBF27BA8AC300BB3916 /* SequenceСreator.swift in Sources */,
+				87D9B89F27F214B5002451E6 /* CodeTableViewController.swift in Sources */,
 				7844CB9427C1A72600B4A094 /* BooleanConverter.swift in Sources */,
 				8735BFB627F332E400A31B07 /* ButtonPresenter.swift in Sources */,
 				8763337927F0D08100FC4A24 /* CodeTableViewController.swift in Sources */,
@@ -495,8 +505,10 @@
 				7844CBAA27CA47B000B4A094 /* CaptureLists.swift in Sources */,
 				8735BFBE27F3341B00A31B07 /* ButtonModuleBuilder.swift in Sources */,
 				7844CBA827CA476900B4A094 /* ConcurrentPerform.swift in Sources */,
+
 				8735BFAA27F3321700A31B07 /* ButtonViewIO.swift in Sources */,
 				8735BFB227F3326D00A31B07 /* ButtonInteractorIO.swift in Sources */,
+
 				78052E8F27BA89A500BB3916 /* SceneDelegate.swift in Sources */,
 				8735BF9B27F3194500A31B07 /* TableViewIO.swift in Sources */,
 				15350EA627C23C01000CDAC3 /* ArrayToString.swift in Sources */,

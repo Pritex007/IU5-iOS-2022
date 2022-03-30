@@ -7,7 +7,9 @@
 
 import UIKit
 
+
 final class CodeFuncViewController: UIViewController {
+
     
     private let applyButton = UIButton(type: .system)
     private let applyButtonTitle = UILabel()
