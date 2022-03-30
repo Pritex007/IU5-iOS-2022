@@ -31,15 +31,29 @@
 		7844CBAE27CA72DB00B4A094 /* ConcurrentPerformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7844CBAD27CA72DB00B4A094 /* ConcurrentPerformTests.swift */; };
 		7844CBB027CADA8000B4A094 /* Shipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7844CBAF27CADA7F00B4A094 /* Shipment.swift */; };
 		7844CBB227CADCD000B4A094 /* ShipmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7844CBB127CADCD000B4A094 /* ShipmentTests.swift */; };
-		87D9B89727F2145F002451E6 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337027F0D08000FC4A24 /* InitialViewController.swift */; };
-		87D9B89C27F214B0002451E6 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */; };
-		87D9B89F27F214B5002451E6 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */; };
-		87D9B8A227F214B7002451E6 /* CodeFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */; };
-		87D9B8A927F216CC002451E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763337527F0D08100FC4A24 /* Main.storyboard */; };
-		87D9B8AC27F216D9002451E6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337727F0D08100FC4A24 /* TableViewController.swift */; };
-		87D9B8AF27F216DC002451E6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337427F0D08100FC4A24 /* TableViewCell.swift */; };
-		87D9B8B227F216DE002451E6 /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337327F0D08100FC4A24 /* FuncViewController.swift */; };
-		87D9B8B527F216E1002451E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337227F0D08100FC4A24 /* ViewController.swift */; };
+		8735BF7F27F3049D00A31B07 /* InitialViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BF7E27F3049D00A31B07 /* InitialViewControllerCell.swift */; };
+		8735BF8B27F318E700A31B07 /* TableModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BF8A27F318E700A31B07 /* TableModuleBuilder.swift */; };
+		8735BF8F27F3190300A31B07 /* TablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BF8E27F3190300A31B07 /* TablePresenter.swift */; };
+		8735BF9327F3191300A31B07 /* TableModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BF9227F3191300A31B07 /* TableModuleIO.swift */; };
+		8735BF9727F3193600A31B07 /* MVPTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BF9627F3193600A31B07 /* MVPTableViewController.swift */; };
+		8735BF9B27F3194500A31B07 /* TableViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BF9A27F3194500A31B07 /* TableViewIO.swift */; };
+		8735BFA627F3320800A31B07 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFA527F3320800A31B07 /* ButtonViewController.swift */; };
+		8735BFAA27F3321700A31B07 /* ButtonViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFA927F3321700A31B07 /* ButtonViewIO.swift */; };
+		8735BFAE27F3325F00A31B07 /* ButtonInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFAD27F3325F00A31B07 /* ButtonInteractor.swift */; };
+		8735BFB227F3326D00A31B07 /* ButtonInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFB127F3326D00A31B07 /* ButtonInteractorIO.swift */; };
+		8735BFB627F332E400A31B07 /* ButtonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFB527F332E400A31B07 /* ButtonPresenter.swift */; };
+		8735BFBA27F332ED00A31B07 /* ButtonModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFB927F332ED00A31B07 /* ButtonModuleIO.swift */; };
+		8735BFBE27F3341B00A31B07 /* ButtonModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFBD27F3341B00A31B07 /* ButtonModuleBuilder.swift */; };
+		8763337827F0D08100FC4A24 /* CodeFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */; };
+		8763337927F0D08100FC4A24 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */; };
+		8763337A27F0D08100FC4A24 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */; };
+		8763337B27F0D08100FC4A24 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337027F0D08000FC4A24 /* InitialViewController.swift */; };
+		8763337C27F0D08100FC4A24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337227F0D08100FC4A24 /* ViewController.swift */; };
+		8763337D27F0D08100FC4A24 /* FuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337327F0D08100FC4A24 /* FuncViewController.swift */; };
+		8763337E27F0D08100FC4A24 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337427F0D08100FC4A24 /* TableViewCell.swift */; };
+		8763337F27F0D08100FC4A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763337527F0D08100FC4A24 /* Main.storyboard */; };
+		8763338027F0D08100FC4A24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337727F0D08100FC4A24 /* TableViewController.swift */; };
+    
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +94,19 @@
 		7844CBAD27CA72DB00B4A094 /* ConcurrentPerformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentPerformTests.swift; sourceTree = "<group>"; };
 		7844CBAF27CADA7F00B4A094 /* Shipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shipment.swift; sourceTree = "<group>"; };
 		7844CBB127CADCD000B4A094 /* ShipmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipmentTests.swift; sourceTree = "<group>"; };
+		8735BF7E27F3049D00A31B07 /* InitialViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewControllerCell.swift; sourceTree = "<group>"; };
+		8735BF8A27F318E700A31B07 /* TableModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModuleBuilder.swift; sourceTree = "<group>"; };
+		8735BF8E27F3190300A31B07 /* TablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePresenter.swift; sourceTree = "<group>"; };
+		8735BF9227F3191300A31B07 /* TableModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModuleIO.swift; sourceTree = "<group>"; };
+		8735BF9627F3193600A31B07 /* MVPTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPTableViewController.swift; sourceTree = "<group>"; };
+		8735BF9A27F3194500A31B07 /* TableViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIO.swift; sourceTree = "<group>"; };
+		8735BFA527F3320800A31B07 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		8735BFA927F3321700A31B07 /* ButtonViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewIO.swift; sourceTree = "<group>"; };
+		8735BFAD27F3325F00A31B07 /* ButtonInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInteractor.swift; sourceTree = "<group>"; };
+		8735BFB127F3326D00A31B07 /* ButtonInteractorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInteractorIO.swift; sourceTree = "<group>"; };
+		8735BFB527F332E400A31B07 /* ButtonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPresenter.swift; sourceTree = "<group>"; };
+		8735BFB927F332ED00A31B07 /* ButtonModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModuleIO.swift; sourceTree = "<group>"; };
+		8735BFBD27F3341B00A31B07 /* ButtonModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModuleBuilder.swift; sourceTree = "<group>"; };
 		8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeFuncViewController.swift; sourceTree = "<group>"; };
 		8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableViewController.swift; sourceTree = "<group>"; };
 		8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
@@ -112,6 +139,8 @@
 		7801412927D642C900E22965 /* LAB_3 */ = {
 			isa = PBXGroup;
 			children = (
+
+				8735BF8427F3124A00A31B07 /* VIPER x MVP */,
 				8763336B27F0D07F00FC4A24 /* Coding */,
 				8763336F27F0D08000FC4A24 /* InitialViewController */,
 				8763337127F0D08100FC4A24 /* Storyboard */,
@@ -233,6 +262,82 @@
 			path = LAB_2;
 			sourceTree = "<group>";
 		};
+
+		8735BF8427F3124A00A31B07 /* VIPER x MVP */ = {
+			isa = PBXGroup;
+			children = (
+				8735BF8627F3177A00A31B07 /* Table MVP Module */,
+				8735BF8527F3175B00A31B07 /* Button Viper Module */,
+			);
+			path = "VIPER x MVP";
+			sourceTree = "<group>";
+		};
+		8735BF8527F3175B00A31B07 /* Button Viper Module */ = {
+			isa = PBXGroup;
+			children = (
+				8735BFA227F3317400A31B07 /* Interactor */,
+				8735BFA127F3315E00A31B07 /* View */,
+				8735BFA027F3314500A31B07 /* Presenter */,
+				8735BFBD27F3341B00A31B07 /* ButtonModuleBuilder.swift */,
+			);
+			path = "Button Viper Module";
+			sourceTree = "<group>";
+		};
+		8735BF8627F3177A00A31B07 /* Table MVP Module */ = {
+			isa = PBXGroup;
+			children = (
+				8735BF8827F318B100A31B07 /* Presenter */,
+				8735BF8727F318AE00A31B07 /* View */,
+				8735BF8A27F318E700A31B07 /* TableModuleBuilder.swift */,
+			);
+			path = "Table MVP Module";
+			sourceTree = "<group>";
+		};
+		8735BF8727F318AE00A31B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8735BF9627F3193600A31B07 /* MVPTableViewController.swift */,
+				8735BF9A27F3194500A31B07 /* TableViewIO.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8735BF8827F318B100A31B07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8735BF8E27F3190300A31B07 /* TablePresenter.swift */,
+				8735BF9227F3191300A31B07 /* TableModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8735BFA027F3314500A31B07 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8735BFB527F332E400A31B07 /* ButtonPresenter.swift */,
+				8735BFB927F332ED00A31B07 /* ButtonModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8735BFA127F3315E00A31B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8735BFA527F3320800A31B07 /* ButtonViewController.swift */,
+				8735BFA927F3321700A31B07 /* ButtonViewIO.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8735BFA227F3317400A31B07 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8735BFAD27F3325F00A31B07 /* ButtonInteractor.swift */,
+				8735BFB127F3326D00A31B07 /* ButtonInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		8763336B27F0D07F00FC4A24 /* Coding */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +352,9 @@
 			isa = PBXGroup;
 			children = (
 				8763337027F0D08000FC4A24 /* InitialViewController.swift */,
+
+				8735BF7E27F3049D00A31B07 /* InitialViewControllerCell.swift */,
+
 			);
 			path = InitialViewController;
 			sourceTree = "<group>";
@@ -344,7 +452,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D9B8A927F216CC002451E6 /* Main.storyboard in Resources */,
+
+				8763337F27F0D08100FC4A24 /* Main.storyboard in Resources */,
 				78052E9927BA89A700BB3916 /* LaunchScreen.storyboard in Resources */,
 				78052E9627BA89A700BB3916 /* Assets.xcassets in Resources */,
 			);
@@ -364,25 +473,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8735BF8F27F3190300A31B07 /* TablePresenter.swift in Sources */,
+				8763337A27F0D08100FC4A24 /* CodeTableViewCell.swift in Sources */,
+				8735BFBA27F332ED00A31B07 /* ButtonModuleIO.swift in Sources */,
+				8763338027F0D08100FC4A24 /* TableViewController.swift in Sources */,
+				8735BF7F27F3049D00A31B07 /* InitialViewControllerCell.swift in Sources */,
 				7844CB9D27C2605D00B4A094 /* SwapValues.swift in Sources */,
-				87D9B89727F2145F002451E6 /* InitialViewController.swift in Sources */,
-				87D9B8AC27F216D9002451E6 /* TableViewController.swift in Sources */,
-				87D9B8AF27F216DC002451E6 /* TableViewCell.swift in Sources */,
 				7844CBA327C91E3C00B4A094 /* ReferenceCycleResolver.swift in Sources */,
+				8735BF9327F3191300A31B07 /* TableModuleIO.swift in Sources */,
 				7844CBB027CADA8000B4A094 /* Shipment.swift in Sources */,
-				87D9B8B227F216DE002451E6 /* FuncViewController.swift in Sources */,
+
+				8735BFA627F3320800A31B07 /* ButtonViewController.swift in Sources */,
+				8763337E27F0D08100FC4A24 /* TableViewCell.swift in Sources */,
 				78052E8D27BA89A500BB3916 /* AppDelegate.swift in Sources */,
+				8763337D27F0D08100FC4A24 /* FuncViewController.swift in Sources */,
+				8735BFAE27F3325F00A31B07 /* ButtonInteractor.swift in Sources */,
 				7844CB9027C1A34200B4A094 /* NumberToArray.swift in Sources */,
-				87D9B89C27F214B0002451E6 /* CodeTableViewCell.swift in Sources */,
-				87D9B8B527F216E1002451E6 /* ViewController.swift in Sources */,
+
+				8763337B27F0D08100FC4A24 /* InitialViewController.swift in Sources */,
+
 				78052EBF27BA8AC300BB3916 /* SequenceСreator.swift in Sources */,
 				87D9B89F27F214B5002451E6 /* CodeTableViewController.swift in Sources */,
 				7844CB9427C1A72600B4A094 /* BooleanConverter.swift in Sources */,
+				8735BFB627F332E400A31B07 /* ButtonPresenter.swift in Sources */,
+				8763337927F0D08100FC4A24 /* CodeTableViewController.swift in Sources */,
 				7844CB9227C1A5BE00B4A094 /* SquareSum.swift in Sources */,
+				8735BF8B27F318E700A31B07 /* TableModuleBuilder.swift in Sources */,
+				8735BF9727F3193600A31B07 /* MVPTableViewController.swift in Sources */,
+				8763337C27F0D08100FC4A24 /* ViewController.swift in Sources */,
+				8763337827F0D08100FC4A24 /* CodeFuncViewController.swift in Sources */,
 				7844CBAA27CA47B000B4A094 /* CaptureLists.swift in Sources */,
+				8735BFBE27F3341B00A31B07 /* ButtonModuleBuilder.swift in Sources */,
 				7844CBA827CA476900B4A094 /* ConcurrentPerform.swift in Sources */,
-				87D9B8A227F214B7002451E6 /* CodeFuncViewController.swift in Sources */,
+
+				8735BFAA27F3321700A31B07 /* ButtonViewIO.swift in Sources */,
+				8735BFB227F3326D00A31B07 /* ButtonInteractorIO.swift in Sources */,
+
 				78052E8F27BA89A500BB3916 /* SceneDelegate.swift in Sources */,
+				8735BF9B27F3194500A31B07 /* TableViewIO.swift in Sources */,
 				15350EA627C23C01000CDAC3 /* ArrayToString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

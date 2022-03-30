@@ -1,10 +1,6 @@
 import UIKit
 
-
-final class CodeTableViewController: UIViewController {
-
-
-
+final class MVPTableViewController: UIViewController {
     
     private lazy var tableView = UITableView(frame: CGRect.zero, style: .plain)
     
@@ -14,6 +10,8 @@ final class CodeTableViewController: UIViewController {
                             (title: "Bucket", subtitle: "Removed items", image: "trash"),
                             (title: "Contact", subtitle: "Leave a review", image: "message")
                            ]
+    
+    var output: TableViewOutput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +60,7 @@ final class CodeTableViewController: UIViewController {
     }
 }
     
-extension CodeTableViewController: UITableViewDataSource {
+extension MVPTableViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -79,13 +77,17 @@ extension CodeTableViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard indexPath.row != 0 else {
-            let viewController = CodeFuncViewController()
-            present(viewController, animated: true)
-            return
-        }
+        output.userDidTapFirstRow()
     }
     
 }
-extension CodeTableViewController: UITableViewDelegate {
+
+extension MVPTableViewController: UITableViewDelegate {
+    
+}
+
+// MARK: - TableViewInput
+
+extension MVPTableViewController: TableViewInput {
+    
 }
