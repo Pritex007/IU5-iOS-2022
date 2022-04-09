@@ -1,5 +1,5 @@
 struct Quote: Decodable {
-   
+
     let valute: Numbers
         
     enum CodingKeys: String, CodingKey {
@@ -10,5 +10,9 @@ struct Quote: Decodable {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         
         valute = try values.decode(Numbers.self, forKey: .valute)
+    }
+    
+    init(valute: Numbers) {
+        self.valute = valute
     }
 }
