@@ -33,7 +33,7 @@ final class CoinTableViewCell: UITableViewCell {
         guard let strongCoin = coin else {
             logo.backgroundColor = Constants.Color.loading
             title.backgroundColor = Constants.Color.loading
-            subTitle.backgroundColor = Constants.Color.loading
+            subTitle.backgroundColor = Constants.Color.loading 
             return
         }
         

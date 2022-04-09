@@ -413,6 +413,8 @@
 		8771C01C27FF541B008DECFE /* LAB_6 */ = {
 			isa = PBXGroup;
 			children = (
+				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
+				878B766828000EC90091E08A /*  NetworkService.swift */,
 				8757D8172801A036000212C8 /* View */,
 				8757D81628019FE8000212C8 /* Presenter */,
 				878B7670280071600091E08A /* Models */,
@@ -424,8 +426,6 @@
 		878B7670280071600091E08A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
-				878B766828000EC90091E08A /*  NetworkService.swift */,
 				878B76712800727F0091E08A /* CoinData.swift */,
 				878B76792800991C0091E08A /* Coin.swift */,
 				878B767D280099200091E08A /* Quote.swift */,

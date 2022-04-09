@@ -10,7 +10,9 @@ final class NetworkService: NetworkServiceProtocol {
     func sendRequest( _ request: URLRequest, completion: @escaping (Result<Data, Error>) -> Void) {
         session.dataTask(with: request) { data, response, error in
             if let error = error {
-                completion(.failure(error))
+                DispatchQueue.main.async {
+                    completion(.failure(error))
+                }
                 return
             }
             guard
@@ -20,7 +22,9 @@ final class NetworkService: NetworkServiceProtocol {
                 return
             }
             if let data = data {
-                completion(.success(data))
+                DispatchQueue.main.async {
+                    completion(.success(data))
+                }
             }
         }.resume()
     }
