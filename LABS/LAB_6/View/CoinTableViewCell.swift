@@ -10,6 +10,8 @@ import UIKit
 
 final class CoinTableViewCell: UITableViewCell {
     
+    // MARK: - Private properties
+    
     private let logo = UIImageView()
     private let title = UILabel()
     private let subTitle = UILabel()

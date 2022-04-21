@@ -22,7 +22,7 @@ final class TopCoinsTableViewController: ViewController {
         setupRefreshControl()
         setupTable()
         
-        updateRequestData()
+        loadDataInTable()
         
     }
     
@@ -30,20 +30,19 @@ final class TopCoinsTableViewController: ViewController {
         
         let refreshControl = UIRefreshControl()
         
-        refreshControl.addTarget(self, action: #selector(updateRequestData), for: .valueChanged)
+        refreshControl.addTarget(self, action: #selector(updateTableData), for: .valueChanged)
         
         tableView.refreshControl = refreshControl
     }
     
     @objc
-    private func updateRequestData() {
-        output.getURLRequestData() { result in
-            self.coins = result
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-                self.tableView.refreshControl?.endRefreshing()
-            }
-        }
+    func updateTableData()
+    {
+        output.reloadData()
+    }
+    
+    private func loadDataInTable() {
+        output.loadData()
     }
     
     private func setupHeader(headerTitle: String = "Top crypto coins") {
@@ -105,5 +104,11 @@ extension TopCoinsTableViewController: UITableViewDelegate {
 // MARK: - TopCoinsViewInput
 
 extension TopCoinsTableViewController: TopCoinsViewInput {
-    
+    func reloadData(data: DataCoin) {
+        coins = data
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+            self.tableView.refreshControl?.endRefreshing()
+        }
+    }
 }
