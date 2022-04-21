@@ -4,19 +4,14 @@ final class TopCoinsViewPresenter {
     weak var view: TopCoinsViewInput!
     weak var moduleOutput: TableModuleOutput!
     
-    private var networkService: NetworkServiceProtocol!
-    private var requestFactory: NetworkRequestFactoryProtocol!
+    private var networkService = NetworkService(session: URLSession(configuration: .default))
+    private var requestFactory = NetworkRequestFactory()
 }
 
 // MARK: - TopCoinsViewOutput
 
 extension TopCoinsViewPresenter: TopCoinsViewOutput {
     func getURLRequestData(completion: @escaping (DataCoin?) -> Void) {
-        
-        var coinData: DataCoin?
-        
-        requestFactory = NetworkRequestFactory()
-        networkService = NetworkService(session: URLSession(configuration: .default))
         
         let request = requestFactory.getTopCoinsRequest()
         networkService.sendRequest(request) { result in
@@ -28,7 +23,7 @@ extension TopCoinsViewPresenter: TopCoinsViewOutput {
                 do {
                     let decoder = JSONDecoder()
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
-                    coinData = try decoder.decode(DataCoin.self, from: data)
+                    let coinData = try decoder.decode(DataCoin.self, from: data)
                     completion(coinData)
                 } catch {
                     assertionFailure("\(error)")
