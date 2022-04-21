@@ -392,11 +392,7 @@
 		8757D82F28021CF6000212C8 /* LAB_7 */ = {
 			isa = PBXGroup;
 			children = (
-				8757D83228022006000212C8 /* Coins.xcdatamodeld */,
-				8757D843280226FC000212C8 /* QuoteModel+Converter.swift */,
-				8757D83F280226F2000212C8 /* NumbersModel+Converter.swift */,
-				8757D83B280226E7000212C8 /* DataCoinModel.swift */,
-				8757D837280226D8000212C8 /* CoinModel+Converter.swift */,
+				87BD7C842811A12300ED0CE8 /* CoreData */,
 			);
 			path = LAB_7;
 			sourceTree = "<group>";
@@ -435,8 +431,7 @@
 		8771C01C27FF541B008DECFE /* LAB_6 */ = {
 			isa = PBXGroup;
 			children = (
-				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
-				878B766828000EC90091E08A /*  NetworkService.swift */,
+				87BD7C832811A03700ED0CE8 /* Services */,
 				8757D8172801A036000212C8 /* View */,
 				8757D81628019FE8000212C8 /* Presenter */,
 				878B7670280071600091E08A /* Models */,
@@ -455,6 +450,35 @@
 				878B76872800A04D0091E08A /* Numbers.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		87BD7C832811A03700ED0CE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
+				878B766828000EC90091E08A /*  NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		87BD7C842811A12300ED0CE8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				87BD7C852811A16800ED0CE8 /* Converters */,
+				8757D83228022006000212C8 /* Coins.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		87BD7C852811A16800ED0CE8 /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				8757D843280226FC000212C8 /* QuoteModel+Converter.swift */,
+				8757D83F280226F2000212C8 /* NumbersModel+Converter.swift */,
+				8757D83B280226E7000212C8 /* DataCoinModel.swift */,
+				8757D837280226D8000212C8 /* CoinModel+Converter.swift */,
+			);
+			path = Converters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

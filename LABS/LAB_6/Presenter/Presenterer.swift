@@ -22,7 +22,7 @@ extension TopCoinsViewPresenter: TopCoinsViewOutput {
         networkService.sendRequest(request) { result in
             switch result {
             case .failure(let error):
-                print("Error:\(error)")
+                print("Error: \(error)")
                 
             case .success(let data):
                 do {

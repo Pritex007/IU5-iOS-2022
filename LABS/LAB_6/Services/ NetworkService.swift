@@ -7,7 +7,7 @@ final class NetworkService: NetworkServiceProtocol {
     init(session: URLSession) {
         self.session = session
     }
-    func sendRequest( _ request: URLRequest, completion: @escaping (Result<Data, Error>) -> Void) {
+    func sendRequest(_ request: URLRequest, completion: @escaping (Result<Data, Error>) -> Void) {
         session.dataTask(with: request) { data, response, error in
             if let error = error {
                 DispatchQueue.main.async {
