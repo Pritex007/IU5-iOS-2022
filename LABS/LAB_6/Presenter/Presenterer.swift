@@ -38,6 +38,7 @@ final class TopCoinsViewPresenter {
     }
     
     private func obtainCoinDataFromServer() {
+
         
         let request = requestFactory.getTopCoinsRequest()
         networkService.sendRequest(request) {[weak self] result in
@@ -53,6 +54,7 @@ final class TopCoinsViewPresenter {
                     let coinData: DataCoin = try decoder.decode(DataCoin.self, from: data)
                     strongSelf.view.reloadData(data: coinData)
                     strongSelf.saveCoinsData(coinData)
+
                 } catch {
                     assertionFailure("\(error)")
                 }
