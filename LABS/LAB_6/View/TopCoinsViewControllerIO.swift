@@ -1,7 +1,8 @@
 protocol TopCoinsViewInput: AnyObject {
-    
+    func reloadData(data: DataCoin)
 }
 
 protocol TopCoinsViewOutput: AnyObject {
-    func getURLRequestData(completion: @escaping (DataCoin) -> Void)
+    func loadData()
+    func reloadData()
 }
