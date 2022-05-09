@@ -48,6 +48,11 @@
 		8757D81F2801A2BC000212C8 /* TopCoinsViewControllerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D81E2801A2BC000212C8 /* TopCoinsViewControllerIO.swift */; };
 		8757D8232801A438000212C8 /* TopCoinModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D8222801A438000212C8 /* TopCoinModuleIO.swift */; };
 		8757D8272801AB46000212C8 /* TopCoinsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D8262801AB46000212C8 /* TopCoinsModuleBuilder.swift */; };
+		8757D83428022006000212C8 /* Coins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8757D83228022006000212C8 /* Coins.xcdatamodeld */; };
+		8757D838280226D8000212C8 /* CoinModel+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D837280226D8000212C8 /* CoinModel+Converter.swift */; };
+		8757D83C280226E7000212C8 /* DataCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D83B280226E7000212C8 /* DataCoinModel.swift */; };
+		8757D840280226F2000212C8 /* NumbersModel+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D83F280226F2000212C8 /* NumbersModel+Converter.swift */; };
+		8757D844280226FC000212C8 /* QuoteModel+Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D843280226FC000212C8 /* QuoteModel+Converter.swift */; };
 		8763337827F0D08100FC4A24 /* CodeFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */; };
 		8763337927F0D08100FC4A24 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */; };
 		8763337A27F0D08100FC4A24 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */; };
@@ -122,6 +127,11 @@
 		8757D81E2801A2BC000212C8 /* TopCoinsViewControllerIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsViewControllerIO.swift; sourceTree = "<group>"; };
 		8757D8222801A438000212C8 /* TopCoinModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinModuleIO.swift; sourceTree = "<group>"; };
 		8757D8262801AB46000212C8 /* TopCoinsModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsModuleBuilder.swift; sourceTree = "<group>"; };
+		8757D83328022006000212C8 /* Coins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coins.xcdatamodel; sourceTree = "<group>"; };
+		8757D837280226D8000212C8 /* CoinModel+Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoinModel+Converter.swift"; sourceTree = "<group>"; };
+		8757D83B280226E7000212C8 /* DataCoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCoinModel.swift; sourceTree = "<group>"; };
+		8757D83F280226F2000212C8 /* NumbersModel+Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumbersModel+Converter.swift"; sourceTree = "<group>"; };
+		8757D843280226FC000212C8 /* QuoteModel+Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteModel+Converter.swift"; sourceTree = "<group>"; };
 		8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeFuncViewController.swift; sourceTree = "<group>"; };
 		8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableViewController.swift; sourceTree = "<group>"; };
 		8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
@@ -379,6 +389,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8757D82F28021CF6000212C8 /* LAB_7 */ = {
+			isa = PBXGroup;
+			children = (
+				87BD7C842811A12300ED0CE8 /* CoreData */,
+			);
+			path = LAB_7;
+			sourceTree = "<group>";
+		};
 		8763336B27F0D07F00FC4A24 /* Coding */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,8 +431,7 @@
 		8771C01C27FF541B008DECFE /* LAB_6 */ = {
 			isa = PBXGroup;
 			children = (
-				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
-				878B766828000EC90091E08A /*  NetworkService.swift */,
+				87BD7C832811A03700ED0CE8 /* Services */,
 				8757D8172801A036000212C8 /* View */,
 				8757D81628019FE8000212C8 /* Presenter */,
 				878B7670280071600091E08A /* Models */,
@@ -426,12 +443,42 @@
 		878B7670280071600091E08A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8757D82F28021CF6000212C8 /* LAB_7 */,
 				878B76712800727F0091E08A /* CoinData.swift */,
 				878B76792800991C0091E08A /* Coin.swift */,
 				878B767D280099200091E08A /* Quote.swift */,
 				878B76872800A04D0091E08A /* Numbers.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		87BD7C832811A03700ED0CE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
+				878B766828000EC90091E08A /*  NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		87BD7C842811A12300ED0CE8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				87BD7C852811A16800ED0CE8 /* Converters */,
+				8757D83228022006000212C8 /* Coins.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		87BD7C852811A16800ED0CE8 /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				8757D843280226FC000212C8 /* QuoteModel+Converter.swift */,
+				8757D83F280226F2000212C8 /* NumbersModel+Converter.swift */,
+				8757D83B280226E7000212C8 /* DataCoinModel.swift */,
+				8757D837280226D8000212C8 /* CoinModel+Converter.swift */,
+			);
+			path = Converters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,6 +584,7 @@
 			files = (
 				8735BF8F27F3190300A31B07 /* TablePresenter.swift in Sources */,
 				8757D81B2801A26E000212C8 /* Presenterer.swift in Sources */,
+				8757D83C280226E7000212C8 /* DataCoinModel.swift in Sources */,
 				8763337A27F0D08100FC4A24 /* CodeTableViewCell.swift in Sources */,
 				8771C02027FF5BCB008DECFE /* TopCoinsTableViewController.swift in Sources */,
 				8735BFBA27F332ED00A31B07 /* ButtonModuleIO.swift in Sources */,
@@ -544,6 +592,7 @@
 				878B767E280099200091E08A /* Quote.swift in Sources */,
 				8763338027F0D08100FC4A24 /* TableViewController.swift in Sources */,
 				8757D81F2801A2BC000212C8 /* TopCoinsViewControllerIO.swift in Sources */,
+				8757D844280226FC000212C8 /* QuoteModel+Converter.swift in Sources */,
 				8735BF7F27F3049D00A31B07 /* InitialViewControllerCell.swift in Sources */,
 				7844CB9D27C2605D00B4A094 /* SwapValues.swift in Sources */,
 				7844CBA327C91E3C00B4A094 /* ReferenceCycleResolver.swift in Sources */,
@@ -558,6 +607,7 @@
 				8763337D27F0D08100FC4A24 /* FuncViewController.swift in Sources */,
 				8735BFAE27F3325F00A31B07 /* ButtonInteractor.swift in Sources */,
 				7844CB9027C1A34200B4A094 /* NumberToArray.swift in Sources */,
+				8757D840280226F2000212C8 /* NumbersModel+Converter.swift in Sources */,
 				8763337B27F0D08100FC4A24 /* InitialViewController.swift in Sources */,
 				78052EBF27BA8AC300BB3916 /* SequenceСreator.swift in Sources */,
 				7844CB9427C1A72600B4A094 /* BooleanConverter.swift in Sources */,
@@ -567,10 +617,12 @@
 				7844CB9227C1A5BE00B4A094 /* SquareSum.swift in Sources */,
 				8735BF8B27F318E700A31B07 /* TableModuleBuilder.swift in Sources */,
 				878B767A2800991C0091E08A /* Coin.swift in Sources */,
+				8757D83428022006000212C8 /* Coins.xcdatamodeld in Sources */,
 				8735BF9727F3193600A31B07 /* MVPTableViewController.swift in Sources */,
 				8763337C27F0D08100FC4A24 /* ViewController.swift in Sources */,
 				8763337827F0D08100FC4A24 /* CodeFuncViewController.swift in Sources */,
 				7844CBAA27CA47B000B4A094 /* CaptureLists.swift in Sources */,
+				8757D838280226D8000212C8 /* CoinModel+Converter.swift in Sources */,
 				8735BFBE27F3341B00A31B07 /* ButtonModuleBuilder.swift in Sources */,
 				7844CBA827CA476900B4A094 /* ConcurrentPerform.swift in Sources */,
 				8757D8272801AB46000212C8 /* TopCoinsModuleBuilder.swift in Sources */,
@@ -873,6 +925,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8757D83228022006000212C8 /* Coins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8757D83328022006000212C8 /* Coins.xcdatamodel */,
+			);
+			currentVersion = 8757D83328022006000212C8 /* Coins.xcdatamodel */;
+			path = Coins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 78052E8127BA89A500BB3916 /* Project object */;
 }

@@ -16,4 +16,10 @@ struct Coin: Decodable {
         subtitle = try values.decode(String.self, forKey: .subtitle)
         quoteData = try values.decode(Quote.self, forKey: .quoteData)
     }
+    
+    init(title: String, subtitle: String, quote: Quote) {
+        self.title = title
+        self.subtitle = subtitle
+        self.quoteData = quote
+    }
 }

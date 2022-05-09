@@ -11,7 +11,9 @@ final class TopCoinsViewPresenter {
 // MARK: - TopCoinsViewOutput
 
 extension TopCoinsViewPresenter: TopCoinsViewOutput {
-    func getURLRequestData(completion: @escaping (DataCoin) -> Void) {
+
+    func getURLRequestData(completion: @escaping (DataCoin?) -> Void) {
+
         
         let request = requestFactory.getTopCoinsRequest()
         networkService.sendRequest(request) { result in

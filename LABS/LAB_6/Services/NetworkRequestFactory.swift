@@ -31,14 +31,14 @@ final class NetworkRequestFactory: NetworkRequestFactoryProtocol {
             URLQueryItem(name: "limit", value: String(6)),
             URLQueryItem(name: "convert", value: "USD")
         ]
-
+        
         guard let url = urlComponents?.url else {
             assertionFailure("Request cryptoData error")
             return URLRequest(url: URL(string: "")!)
         }
         
         var request = URLRequest(url: url)
-        request.allHTTPHeaderFields = ["Accept":"application/json", "X-CMC_PRO_API_KEY": Constants.apiKey]
+        request.allHTTPHeaderFields = ["Accept": "application/json", "X-CMC_PRO_API_KEY": Constants.apiKey]
         
         request.httpMethod = HTTPRequestType.get.rawValue
         

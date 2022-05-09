@@ -2,6 +2,7 @@
 import Foundation
 
 struct DataCoin: Decodable {
+    
     let data: [Coin]
     
     enum CodingKeys: String, CodingKey {
@@ -13,8 +14,8 @@ struct DataCoin: Decodable {
         
         data = try values.decode([Coin].self, forKey: .data)
     }
+    
+    init(data: [Coin]) {
+        self.data = data
+    }
 }
-
-
-
-
