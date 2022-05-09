@@ -5,7 +5,7 @@ final class InitialViewController: UIViewController {
     private lazy var tableView = UITableView(frame: CGRect.zero, style: .grouped)
     private var openedViewController: UIViewController?
     
-    private let titles = ["ЛР3", "ЛР4", "ЛР5"]
+    private let titles = ["ЛР3", "ЛР4", "ЛР5", "ЛР6"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +39,7 @@ extension InitialViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -60,6 +60,11 @@ extension InitialViewController: UITableViewDataSource {
             let builder = ButtonModuleBuilder()
             let viewController = builder.build(output: self)
             present(viewController, animated: true)
+        case 3:
+            let builder = TopCoinsModuleBuilder()
+            let viewController = builder.build()
+            viewController.modalPresentationStyle = .fullScreen
+            present(viewController, animated : true)
         default:
             return
         }

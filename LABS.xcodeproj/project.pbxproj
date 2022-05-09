@@ -44,6 +44,10 @@
 		8735BFB627F332E400A31B07 /* ButtonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFB527F332E400A31B07 /* ButtonPresenter.swift */; };
 		8735BFBA27F332ED00A31B07 /* ButtonModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFB927F332ED00A31B07 /* ButtonModuleIO.swift */; };
 		8735BFBE27F3341B00A31B07 /* ButtonModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8735BFBD27F3341B00A31B07 /* ButtonModuleBuilder.swift */; };
+		8757D81B2801A26E000212C8 /* Presenterer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D81A2801A26E000212C8 /* Presenterer.swift */; };
+		8757D81F2801A2BC000212C8 /* TopCoinsViewControllerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D81E2801A2BC000212C8 /* TopCoinsViewControllerIO.swift */; };
+		8757D8232801A438000212C8 /* TopCoinModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D8222801A438000212C8 /* TopCoinModuleIO.swift */; };
+		8757D8272801AB46000212C8 /* TopCoinsModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8757D8262801AB46000212C8 /* TopCoinsModuleBuilder.swift */; };
 		8763337827F0D08100FC4A24 /* CodeFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */; };
 		8763337927F0D08100FC4A24 /* CodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */; };
 		8763337A27F0D08100FC4A24 /* CodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */; };
@@ -53,7 +57,14 @@
 		8763337E27F0D08100FC4A24 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337427F0D08100FC4A24 /* TableViewCell.swift */; };
 		8763337F27F0D08100FC4A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8763337527F0D08100FC4A24 /* Main.storyboard */; };
 		8763338027F0D08100FC4A24 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763337727F0D08100FC4A24 /* TableViewController.swift */; };
-    
+		8771C02027FF5BCB008DECFE /* TopCoinsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771C01F27FF5BCB008DECFE /* TopCoinsTableViewController.swift */; };
+		8771C02427FF65F7008DECFE /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771C02327FF65F7008DECFE /* CoinTableViewCell.swift */; };
+		878B766328000BED0091E08A /* NetworkRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B766228000BED0091E08A /* NetworkRequestFactory.swift */; };
+		878B766928000EC90091E08A /*  NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B766828000EC90091E08A /*  NetworkService.swift */; };
+		878B76722800727F0091E08A /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B76712800727F0091E08A /* CoinData.swift */; };
+		878B767A2800991C0091E08A /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B76792800991C0091E08A /* Coin.swift */; };
+		878B767E280099200091E08A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B767D280099200091E08A /* Quote.swift */; };
+		878B76882800A04D0091E08A /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B76872800A04D0091E08A /* Numbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +118,10 @@
 		8735BFB527F332E400A31B07 /* ButtonPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPresenter.swift; sourceTree = "<group>"; };
 		8735BFB927F332ED00A31B07 /* ButtonModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModuleIO.swift; sourceTree = "<group>"; };
 		8735BFBD27F3341B00A31B07 /* ButtonModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModuleBuilder.swift; sourceTree = "<group>"; };
+		8757D81A2801A26E000212C8 /* Presenterer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenterer.swift; sourceTree = "<group>"; };
+		8757D81E2801A2BC000212C8 /* TopCoinsViewControllerIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsViewControllerIO.swift; sourceTree = "<group>"; };
+		8757D8222801A438000212C8 /* TopCoinModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinModuleIO.swift; sourceTree = "<group>"; };
+		8757D8262801AB46000212C8 /* TopCoinsModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsModuleBuilder.swift; sourceTree = "<group>"; };
 		8763336C27F0D07F00FC4A24 /* CodeFuncViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeFuncViewController.swift; sourceTree = "<group>"; };
 		8763336D27F0D07F00FC4A24 /* CodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableViewController.swift; sourceTree = "<group>"; };
 		8763336E27F0D07F00FC4A24 /* CodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableViewCell.swift; sourceTree = "<group>"; };
@@ -116,6 +131,14 @@
 		8763337427F0D08100FC4A24 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		8763337627F0D08100FC4A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8763337727F0D08100FC4A24 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8771C01F27FF5BCB008DECFE /* TopCoinsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsTableViewController.swift; sourceTree = "<group>"; };
+		8771C02327FF65F7008DECFE /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		878B766228000BED0091E08A /* NetworkRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestFactory.swift; sourceTree = "<group>"; };
+		878B766828000EC90091E08A /*  NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " NetworkService.swift"; sourceTree = "<group>"; };
+		878B76712800727F0091E08A /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		878B76792800991C0091E08A /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		878B767D280099200091E08A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		878B76872800A04D0091E08A /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +162,6 @@
 		7801412927D642C900E22965 /* LAB_3 */ = {
 			isa = PBXGroup;
 			children = (
-
 				8735BF8427F3124A00A31B07 /* VIPER x MVP */,
 				8763336B27F0D07F00FC4A24 /* Coding */,
 				8763336F27F0D08000FC4A24 /* InitialViewController */,
@@ -173,6 +195,7 @@
 		78052E8B27BA89A500BB3916 /* LABS */ = {
 			isa = PBXGroup;
 			children = (
+				8771C01C27FF541B008DECFE /* LAB_6 */,
 				7801412927D642C900E22965 /* LAB_3 */,
 				7844CBA127C91DCA00B4A094 /* LAB_2 */,
 				7844CB9B27C2600A00B4A094 /* LAB_0 */,
@@ -262,7 +285,6 @@
 			path = LAB_2;
 			sourceTree = "<group>";
 		};
-
 		8735BF8427F3124A00A31B07 /* VIPER x MVP */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +360,25 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		8757D81628019FE8000212C8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8757D81A2801A26E000212C8 /* Presenterer.swift */,
+				8757D8222801A438000212C8 /* TopCoinModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8757D8172801A036000212C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8771C01F27FF5BCB008DECFE /* TopCoinsTableViewController.swift */,
+				8771C02327FF65F7008DECFE /* CoinTableViewCell.swift */,
+				8757D81E2801A2BC000212C8 /* TopCoinsViewControllerIO.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8763336B27F0D07F00FC4A24 /* Coding */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,9 +393,7 @@
 			isa = PBXGroup;
 			children = (
 				8763337027F0D08000FC4A24 /* InitialViewController.swift */,
-
 				8735BF7E27F3049D00A31B07 /* InitialViewControllerCell.swift */,
-
 			);
 			path = InitialViewController;
 			sourceTree = "<group>";
@@ -369,6 +408,30 @@
 				8763337727F0D08100FC4A24 /* TableViewController.swift */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8771C01C27FF541B008DECFE /* LAB_6 */ = {
+			isa = PBXGroup;
+			children = (
+				878B766228000BED0091E08A /* NetworkRequestFactory.swift */,
+				878B766828000EC90091E08A /*  NetworkService.swift */,
+				8757D8172801A036000212C8 /* View */,
+				8757D81628019FE8000212C8 /* Presenter */,
+				878B7670280071600091E08A /* Models */,
+				8757D8262801AB46000212C8 /* TopCoinsModuleBuilder.swift */,
+			);
+			path = LAB_6;
+			sourceTree = "<group>";
+		};
+		878B7670280071600091E08A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				878B76712800727F0091E08A /* CoinData.swift */,
+				878B76792800991C0091E08A /* Coin.swift */,
+				878B767D280099200091E08A /* Quote.swift */,
+				878B76872800A04D0091E08A /* Numbers.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,7 +515,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				8763337F27F0D08100FC4A24 /* Main.storyboard in Resources */,
 				78052E9927BA89A700BB3916 /* LaunchScreen.storyboard in Resources */,
 				78052E9627BA89A700BB3916 /* Assets.xcassets in Resources */,
@@ -474,41 +536,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				8735BF8F27F3190300A31B07 /* TablePresenter.swift in Sources */,
+				8757D81B2801A26E000212C8 /* Presenterer.swift in Sources */,
 				8763337A27F0D08100FC4A24 /* CodeTableViewCell.swift in Sources */,
+				8771C02027FF5BCB008DECFE /* TopCoinsTableViewController.swift in Sources */,
 				8735BFBA27F332ED00A31B07 /* ButtonModuleIO.swift in Sources */,
+				8771C02427FF65F7008DECFE /* CoinTableViewCell.swift in Sources */,
+				878B767E280099200091E08A /* Quote.swift in Sources */,
 				8763338027F0D08100FC4A24 /* TableViewController.swift in Sources */,
+				8757D81F2801A2BC000212C8 /* TopCoinsViewControllerIO.swift in Sources */,
 				8735BF7F27F3049D00A31B07 /* InitialViewControllerCell.swift in Sources */,
 				7844CB9D27C2605D00B4A094 /* SwapValues.swift in Sources */,
 				7844CBA327C91E3C00B4A094 /* ReferenceCycleResolver.swift in Sources */,
 				8735BF9327F3191300A31B07 /* TableModuleIO.swift in Sources */,
 				7844CBB027CADA8000B4A094 /* Shipment.swift in Sources */,
-
+				878B76722800727F0091E08A /* CoinData.swift in Sources */,
 				8735BFA627F3320800A31B07 /* ButtonViewController.swift in Sources */,
 				8763337E27F0D08100FC4A24 /* TableViewCell.swift in Sources */,
+				878B766928000EC90091E08A /*  NetworkService.swift in Sources */,
+				8757D8232801A438000212C8 /* TopCoinModuleIO.swift in Sources */,
 				78052E8D27BA89A500BB3916 /* AppDelegate.swift in Sources */,
 				8763337D27F0D08100FC4A24 /* FuncViewController.swift in Sources */,
 				8735BFAE27F3325F00A31B07 /* ButtonInteractor.swift in Sources */,
 				7844CB9027C1A34200B4A094 /* NumberToArray.swift in Sources */,
-
 				8763337B27F0D08100FC4A24 /* InitialViewController.swift in Sources */,
-
 				78052EBF27BA8AC300BB3916 /* SequenceСreator.swift in Sources */,
-				87D9B89F27F214B5002451E6 /* CodeTableViewController.swift in Sources */,
 				7844CB9427C1A72600B4A094 /* BooleanConverter.swift in Sources */,
 				8735BFB627F332E400A31B07 /* ButtonPresenter.swift in Sources */,
 				8763337927F0D08100FC4A24 /* CodeTableViewController.swift in Sources */,
+				878B766328000BED0091E08A /* NetworkRequestFactory.swift in Sources */,
 				7844CB9227C1A5BE00B4A094 /* SquareSum.swift in Sources */,
 				8735BF8B27F318E700A31B07 /* TableModuleBuilder.swift in Sources */,
+				878B767A2800991C0091E08A /* Coin.swift in Sources */,
 				8735BF9727F3193600A31B07 /* MVPTableViewController.swift in Sources */,
 				8763337C27F0D08100FC4A24 /* ViewController.swift in Sources */,
 				8763337827F0D08100FC4A24 /* CodeFuncViewController.swift in Sources */,
 				7844CBAA27CA47B000B4A094 /* CaptureLists.swift in Sources */,
 				8735BFBE27F3341B00A31B07 /* ButtonModuleBuilder.swift in Sources */,
 				7844CBA827CA476900B4A094 /* ConcurrentPerform.swift in Sources */,
-
+				8757D8272801AB46000212C8 /* TopCoinsModuleBuilder.swift in Sources */,
 				8735BFAA27F3321700A31B07 /* ButtonViewIO.swift in Sources */,
+				878B76882800A04D0091E08A /* Numbers.swift in Sources */,
 				8735BFB227F3326D00A31B07 /* ButtonInteractorIO.swift in Sources */,
-
 				78052E8F27BA89A500BB3916 /* SceneDelegate.swift in Sources */,
 				8735BF9B27F3194500A31B07 /* TableViewIO.swift in Sources */,
 				15350EA627C23C01000CDAC3 /* ArrayToString.swift in Sources */,
